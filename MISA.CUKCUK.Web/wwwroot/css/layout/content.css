@@ -1,0 +1,177 @@
+﻿.content {
+    width: calc(100% - 220px);
+    height: calc(100vh - 60px);
+    margin-left: 220px;
+    background-color: #ffffff;
+}
+
+    .content .content__header {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+
+        .content .content__header .content-title {
+            font-size: 25px;
+            font-weight: bold;
+            cursor: default;
+            margin: 16px;
+        }
+
+/*button add customer*/
+.btn--add-emplpoyee {
+    position: absolute;
+    right: 16px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background-color: #019160;
+    cursor: pointer;
+}
+
+    .btn--add-emplpoyee:hover {
+        background-color: #2FBE8E;
+    }
+
+    .btn--add-emplpoyee .btn--add-emplpoyee__icon {
+        width: 16px;
+        height: 16px;
+        margin-left: 16px;
+        margin-right: 8px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('/content/icon/add.png');
+    }
+
+    .btn--add-emplpoyee .btn--add-emplpoyee__text {
+        font: 13px;
+        color: #ffffff;
+        margin-right: 16px;
+    }
+
+/*filter*/
+.content .content__filter {
+    height: 36px;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+/*search box*/
+.search-box {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+
+    .search-box .search-box__icon {
+        width: 16px;
+        height: 16px;
+        margin: 0px 8px 0px 16px;
+        background-image: url('/content/icon/search.png');
+        cursor: pointer;
+    }
+
+    .search-box .search-box__text {
+        border: none;
+        outline: none;
+        background: none;
+    }
+
+/*button refesh*/
+.btn--refesh {
+    position: absolute;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #BBBBBB;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .btn--refesh:hover {
+        background-color: #E5E5E5;
+    }
+
+    .btn--refesh .btn--refesh__img {
+        width: 20px;
+        height: 20px;
+        margin: 8px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('../../content/icon/refresh.png');
+    }
+
+/*content footer*/
+.content__footer {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .content__footer .page-info {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content__footer .page-total {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content__footer .paging {
+        height: 100%;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .content__footer .paging button {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin: 0 8px;
+            background: #2FBE8E;
+            color: #fff;
+        }
+
+        .content__footer .paging .page-control {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+
+        .content__footer .paging .first-page {
+            background-image: url('/content/icon/btn-firstpage.svg');
+            background-size: contain;
+        }
+
+        .content__footer .paging .prev-page {
+            background-image: url('/content/icon/btn-prev-page.svg');
+            background-size: contain;
+        }
+
+        .content__footer .paging .next-page {
+            background-image: url('/content/icon/btn-next-page.svg');
+            background-size: contain;
+        }
+
+        .content__footer .paging .last-page {
+            background-image: url('/content/icon/btn-lastpage.svg');
+            background-size: contain;
+        }

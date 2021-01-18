@@ -1,0 +1,33 @@
+﻿@import url(../js/lib/jquery-ui-1.12.1.custom/jquery-ui.css);
+@import url('/content/font/fontawesome-5.15.1/css/all.css');
+@import url('common/common.css');
+@import url('common/button.css');
+@import url('common/input.css');
+@import url('common/dialog.css');
+@import url('common/grid.css');
+@import url('layout/content.css');
+@import url('layout/header.css');
+@import url('layout/menu.css');
+
+* {
+    font-family: GoogleSans-Regular;
+    font-size: 13px;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'GoogleSans-Italic';
+    src: url('/content/font/GoogleSans-Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('/content/font/GoogleSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('/content/font/GoogleSans-Regular.otf') format('opentype');
+}

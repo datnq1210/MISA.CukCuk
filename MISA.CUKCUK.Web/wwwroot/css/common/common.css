@@ -1,0 +1,25 @@
+﻿.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+.border-red{
+    border: 1px solid #ff0000 !important;
+}
+.col-50 {
+    width: 50%;
+    float: left;
+}
+
+.row{
+    height: 50px;
+    margin-bottom: 16px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

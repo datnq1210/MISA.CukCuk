@@ -1,0 +1,54 @@
+﻿.grid {
+    overflow-y: auto;
+    overflow-x: scroll;
+    margin: 16px;
+    height: calc(100vh - 244px);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #E5E5E5;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #BBBBBB;
+    border-radius: 10px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #454545;
+    }
+
+.grid table {
+    min-width: 100%;
+}
+
+th,
+td {
+    padding: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #ffffff;
+    border-bottom: 1px solid #BBBBBB;
+    max-width: 200px;
+    cursor: pointer;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    text-align: left;
+    cursor: default;
+}
+tr:nth-child(odd) td {
+    background: #f4f4f4;
+}

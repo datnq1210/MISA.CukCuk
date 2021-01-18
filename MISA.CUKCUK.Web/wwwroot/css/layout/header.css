@@ -1,0 +1,61 @@
+﻿.header {
+    width: calc(100% - 221px);
+    max-height: 59px;
+    margin-left: 220px;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #BBBBBB;
+    border-right: 1px solid #BBBBBB;
+    display: flex;
+    position: relative;
+}
+
+.select-restaurant {
+    width: 200px;
+    height: 60px;
+    margin-right: 16px;
+    align-items: center;
+}
+
+    .select-restaurant select {
+        border: none;
+        outline: none;
+        margin: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        background: none;
+        cursor: pointer;
+    }
+
+.account-box {
+    position: absolute;
+    right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+    .account-box .account-avatar {
+        width: 30px;
+        height: 30px;
+        margin-right: 16px;
+        cursor: pointer;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('/content/icon/avatar-default.png');
+    }
+
+    .account-box .user-name {
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: bold;
+        margin-right: 16px;
+    }
+
+    .account-box .account-option {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('/content/icon/option.png');
+    }

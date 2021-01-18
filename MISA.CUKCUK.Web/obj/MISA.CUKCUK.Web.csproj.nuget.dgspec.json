@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.CUKCUK.Web\\MISA.CUKCUK.Web.csproj": {}
+  },
+  "projects": {
+    "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj",
+        "projectName": "MISA.AppliactionCore",
+        "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj",
+        "packagesPath": "C:\\Users\\nqdat\\.nuget\\packages\\",
+        "outputPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nqdat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.CUKCUK.Web\\MISA.CUKCUK.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.CUKCUK.Web\\MISA.CUKCUK.Web.csproj",
+        "projectName": "MISA.CUKCUK.Web",
+        "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.CUKCUK.Web\\MISA.CUKCUK.Web.csproj",
+        "packagesPath": "C:\\Users\\nqdat\\.nuget\\packages\\",
+        "outputPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.CUKCUK.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nqdat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj": {
+                "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj"
+              },
+              "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
+                "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.Infrastructure\\MISA.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
+        "projectName": "MISA.Infrastructure",
+        "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nqdat\\.nuget\\packages\\",
+        "outputPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nqdat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj": {
+                "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
