@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj": {}
+    "F:\\MISA.CukCuk\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj": {}
   },
   "projects": {
-    "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj": {
+    "F:\\MISA.CukCuk\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj",
+        "projectUniqueName": "F:\\MISA.CukCuk\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj",
         "projectName": "MISA.AppliactionCore",
-        "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj",
+        "projectPath": "F:\\MISA.CukCuk\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj",
         "packagesPath": "C:\\Users\\nqdat\\.nuget\\packages\\",
-        "outputPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\obj\\",
+        "outputPath": "F:\\MISA.CukCuk\\MISA.AppliactionCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nqdat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6066,11 +6066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.CUKCUK.Web\\MISA.CUKCUK.Web.csproj",
+      "projectUniqueName": "F:\\MISA.CukCuk\\MISA.CUKCUK.Web\\MISA.CUKCUK.Web.csproj",
       "projectName": "MISA.CUKCUK.Web",
-      "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.CUKCUK.Web\\MISA.CUKCUK.Web.csproj",
+      "projectPath": "F:\\MISA.CukCuk\\MISA.CUKCUK.Web\\MISA.CUKCUK.Web.csproj",
       "packagesPath": "C:\\Users\\nqdat\\.nuget\\packages\\",
-      "outputPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.CUKCUK.Web\\obj\\",
+      "outputPath": "F:\\MISA.CukCuk\\MISA.CUKCUK.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nqdat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6087,11 +6087,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj": {
-              "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj"
+            "F:\\MISA.CukCuk\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj": {
+              "projectPath": "F:\\MISA.CukCuk\\MISA.AppliactionCore\\MISA.AppliactionCore.csproj"
             },
-            "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
-              "projectPath": "F:\\MISA.WDT\\WDT2020_MS1_41_NQDAT\\MISA.CUKCUK\\MISA.Infrastructure\\MISA.Infrastructure.csproj"
+            "F:\\MISA.CukCuk\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
+              "projectPath": "F:\\MISA.CukCuk\\MISA.Infrastructure\\MISA.Infrastructure.csproj"
             }
           }
         }
@@ -6143,7 +6143,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
